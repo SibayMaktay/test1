@@ -1,0 +1,245 @@
+/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: 100%;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    outline: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td, td img {
+    vertical-align: top;
+}
+input, section, button, textarea {
+    margin: 0;
+    font-size: 100%;
+    outline: none;
+}
+input[type="text"], input[type="password"], textarea {
+    padding: 0;
+}
+input[type="checkbox"] {
+    vertical-align: bottom;
+}
+input[type="radio"] {
+    vertical-align: text-bottom;
+}
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+nav ul {
+    list-style: none;
+}
+/* --------------- /reset.css --------------- */
+
+/* --------------- Базовые настройки --------------- */
+html {
+    min-height: 100%;
+}
+body {
+    color: #000;
+    text-align: left;
+    font-size: 1em;
+    min-height: 100%;
+    background:
+    url(img/12.png) 750px/750px repeat,
+    url(img/11.png) 500px/500px repeat ,
+    url(img/9.png) top 200px left 800px/100px no-repeat,
+    url(img/8.png) top 450px right/150px no-repeat,
+    url(img/10.png) bottom right 150px/450px no-repeat,
+    url(img/4.png) top left/450px no-repeat,
+    url(img/5.png) center bottom/600px no-repeat,
+    url(img/6.png) center right/700px no-repeat,
+    url(img/7.png) top right/400px no-repeat;
+    background-color: #05070a;
+}
+a, a:visited {
+    color: #e6618c;
+    text-decoration: underline;
+}
+a:hover {
+    color: #fdf208;
+    text-decoration: none;
+}
+a:focus, a:active {
+    color: #c83867;
+    text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: #e3e4de;
+}
+img {
+    max-width: 100%;
+}
+.clr {
+    clear: both;
+}
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/* --------------- /Базовые настройки --------------- */
+// <uniquifier>: Use a unique and descriptive class name
+
+.archivo-uniquifier {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 125;
+}
+// <uniquifier>: Use a unique and descriptive class name
+
+.space-grotesk-uniquifier {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.header {
+    
+    border-bottom: #e3e4de solid 1px;
+}
+    .header-1 {
+        margin: 2% 3.95%;
+        padding-bottom: 3%;
+    }
+        .header-left{
+            float: left;
+        }
+            .header-left img {
+                width: 40%;
+            }
+        .header-right {
+            float: right;
+        }
+            .header-right ul li {
+                float: left;
+                margin: 10px 35px 0 35px;
+                list-style: none;
+            }
+                .header-right ul li a {
+                    color: #fff;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-family: "Space Grotesk", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+                    .header-right ul li a:hover {
+                        color: #aaa;
+                    }
+.bo {
+    margin: 2% 3.95%;
+}
+.body {
+    width: 50%;
+}
+.body h1, .body h2 {
+    color: #e3e4de;
+}
+    .body-left {
+        float: left;
+    }
+        .body-left-img {
+
+        }
+            .body-left-img img {
+                width: 37%;
+            }
+        .body-left-info-1 {
+            margin-left: 3.5%;
+            margin-top: 70px;
+            margin-bottom: 35px;
+            height: 300px;
+            border-top: 1px solid #e3e4de;
+            border-bottom: 1px solid #e3e4de;
+        }
+            .body-left-info-1-1 {
+                float: left;
+                font-family: "Archivo", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 300;
+                font-style: normal;
+                font-variation-settings:
+                    "wdth" 125;
+                font-size: 125px;
+            }
+            .body-left-info-1-2 {
+                float: right;
+                font-family: "Archivo", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 300;
+                font-style: normal;
+                font-variation-settings:
+                    "wdth" 125;
+                font-size: 125px;
+            }
+        .body-left-info-2 {
+            margin-left: 3.5%;
+            float: left;
+        }
+            .body-left-info-2 h2 {
+                color: #e3e4de;
+                font-family: "Space Grotesk", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 17.5px;
+                padding-bottom: 4%;
+            }
+            .body-left-info-2-1 {
+                border: #e3e4de solid 3px;
+                border-radius: 40px;
+                padding: 20px 80px;
+                font-family: "Space Grotesk", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 30px;
+                background-color: #0000;
+                color: #e3e4de;
+                margin-bottom: 40px;
+            }
+                .body-left-info-2-1:hover {
+                    border: #aaa solid 3px;
+                    color: #aaa;
+                }
+    .body-right {
+        float: right;
+    }
+        .body-right h1 {
+            font-family: "Archivo", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 125;
+            font-size: 150px;
+            color: #e3e4de;
+        }
